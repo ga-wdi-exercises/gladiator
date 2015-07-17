@@ -1,8 +1,7 @@
 # RSpec Gladiator Arena
 
-The Emperor has commissioned you to build a Gladiator Arena. Your life depends on developing a well-thought-out arena, so you are constructing it in a test-driven way using RSpec.
-
-**Need a hint?!** - Check out the [starter screencast](https://github.com/ga-students/addbass-hw/blob/master/students/jshawl/w02/d05/readme.md)
+The Emperor has commissioned you to build a Gladiator Arena. Your life depends on developing a well-thought-out arena, so you have been given tests to make sure
+you build it well.
 
 ## Gladiator Spec
 
@@ -15,7 +14,6 @@ The Emperor has commissioned you to build a Gladiator Arena. Your life depends o
   * the name should be capitalized
 * An arena can have gladiators
 * You can add a gladiator to the arena
-  * hint: use a setter method like `add_gladiator` instead of `.push` or `<<`
   * The arena should never have more than 2 gladiators in it at a time
 * If there are two gladiators in the arena, you can call a fight method that results in the elimination of one of the gladiators from the arena.
   * Winning conditions:
@@ -24,7 +22,23 @@ The Emperor has commissioned you to build a Gladiator Arena. Your life depends o
     * Club beats Trident
     * If the two gladiators have the same weapon, they are both eliminated.
 
+## Steps
+
+1. In the gladiator folder, run `bundle install` to make sure you have the right gems installed
+2. Run `rspec` to run your tests. They should all fail.
+3. Start with the `Gladiator` tests / class.
+4. Then do the `Arena` tests / class
+
+For each individual test:
+1. Read the error message.
+2. Make the smallest change in your code to fix the error.
+3. Run the test.
+4. Repeat 1 - 3 until the test passes
+5. Move to the next test.
+
 ## Bonus
+
+Note: No tests are provided for this bonus.
 
 * Add a method to remove gladiators from the arena by name
 
