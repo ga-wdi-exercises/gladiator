@@ -11,6 +11,7 @@ you build it well.
 4. Then do the `Arena` tests / class (see steps below)
 
 For each individual test:
+
 1. Read the error message.
 2. Make the smallest change in your code to fix the error.
 3. Run the test.
