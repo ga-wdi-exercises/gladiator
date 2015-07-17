@@ -7,8 +7,4 @@ class Gladiator
   def name
     return @name
   end
-
-  def weapon
-    @weapon
-  end
 end
