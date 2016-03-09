@@ -18,14 +18,9 @@ For each individual test:
 4. Repeat 1 - 3 until the test passes
 5. Move to the next test.
 
-### Timeboxing
-
-I suggest you spend no more than 2 hours on this exercise, including time spent
-in lab.
-
 ### Note about the solution
 
-The correct solution to this exercise is on the branch called **`pbj_solution`**.
+The correct solution to this exercise is on the branch called **`solution`**.
 
 ## Specs
 ### Gladiator Spec
@@ -36,7 +31,7 @@ The correct solution to this exercise is on the branch called **`pbj_solution`**
 ### Arena Spec
 
 * An arena has a name
-  * the name should be capitalized
+  * The name should be capitalized
 * An arena can have gladiators
 * You can add a gladiator to the arena
   * The arena should never have more than 2 gladiators in it at a time
