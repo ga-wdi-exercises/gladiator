@@ -3,8 +3,6 @@
 The Emperor has commissioned you to build a Gladiator Arena. Your life depends on developing a well-thought-out arena, so you have been given tests to make sure
 you build it well.
 
->Note: UXDI is having project presentations today from 10:30-12:30 and again from 1:30-3:30 in classroom 2. They will be 20 minutes each. Please check them out if you like, and be respectful to your fellow classmates!
-
 ## How to do this assignment
 
 1. In the gladiator folder, run `bundle install` to make sure you have the right gems installed
@@ -20,9 +18,13 @@ For each individual test:
 4. Repeat 1 - 3 until the test passes
 5. Move to the next test.
 
-### Note about the solution
+## Bonus!
 
-The correct solution to this exercise is on the branch called **`solution`**.
+Try writing the tests yourself:
+
+```
+$ rm -rf spec
+```
 
 ## Specs
 ### Gladiator Spec
@@ -45,7 +47,7 @@ The correct solution to this exercise is on the branch called **`solution`**.
     * If the two gladiators have the same weapon, they are both eliminated.
 
 
-## Bonus
+## Double Bonus!
 
 Note: No tests are provided for this bonus. You can either just add the
 functionality w/o tests, or try to write the tests yourself.
